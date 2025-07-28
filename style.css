@@ -1,0 +1,26 @@
+body {
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card-personal {
+  max-width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.card-personal img {
+  object-fit: cover;
+  height: 250px;
+}
+
+.btn-custom {
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-size: 14px;
+}
